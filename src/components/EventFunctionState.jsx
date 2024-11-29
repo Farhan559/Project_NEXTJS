@@ -2,9 +2,9 @@
 import React, { useState } from 'react'
 
 const EventFunctionState = () => {
-    // const sayHello = (name)=>{
-    //     alert(`Hello ${name}`);
-    // }
+    const sayHello = (name)=>{
+        alert(`Hello ${name}`);
+    }
     const [name,setName]=useState('Ali');
     const changeName = ()=>{
         setName('AYuB');
